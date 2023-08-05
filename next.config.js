@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    optimizeFonts: true,
-    optimizeImages: true,
-  },
-};
+const nextConfig = {};
+
+// Remove or comment out the "images" property
+// nextConfig.images = {
+//   ...
+// };
 
 module.exports = nextConfig;
