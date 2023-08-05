@@ -11,6 +11,7 @@ if (isGithubActions) {
 }
 
 module.exports = {
+    export: 'output'
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
