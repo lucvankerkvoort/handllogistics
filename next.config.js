@@ -2,8 +2,8 @@
 const nextConfig = {};
 
 // Remove or comment out the "images" property
-// nextConfig.images = {
-//   ...
-// };
+nextConfig.images = {
+  ...
+};
 
 module.exports = nextConfig;
