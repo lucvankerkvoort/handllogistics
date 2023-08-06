@@ -57,18 +57,12 @@ export default function Hero() {
             >
               Your Trusted Partner for Seamless Freight Dispatching Services
             </p>
-            <p
-              className="text-xl text-gray-400 mb-8"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              Call to get a quote today
-            </p>
+
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  href="tel:+13233646648"
-                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  href="tel:+13239058322"
+                  className="btn text-white bg-purple-600 hover:bg-gray-800 w-full  sm:w-auto sm:mb-0"
                 >
                   Call
                 </a>
@@ -76,9 +70,25 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="btn text-white bg-purple-600 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                  href="sms:+13233646648"
+                  href="sms:+13239058322"
                 >
                   Text
+                </a>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a
+                  className="btn text-white bg-purple-600 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                  href="mailto:haider@hnl-logistics.com"
+                >
+                  Email
+                </a>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a
+                  className="btn text-white bg-purple-600 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                  href="https://form.jotform.com/231591047227454"
+                >
+                  Join us
                 </a>
               </div>
             </div>
